@@ -1,58 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Score Keeper</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-  <section class="section">
-
-  <div class="container">
-    <div class="columms">
-      <div class="column is-half is-offset-one-quarter">
-        <div class="card">
-          <div class="card-imgage">
-            <figure class="img is-2by1">
-              <img src="tabletennis.jpg" alt="">
-            </figure>
-          </div>
-          <header class="card-header">
-            <p class="card-header-title">
-              Ping Pong Score Keeper
-            </p>
-            
-          </header>
-          <div class="card-content">
-            <div class="content">
-                <h1 class="title is-1"><span id="p1Display">0</span> to <span id=p2Display>0</span></h1>
-                <p class="subtitle">Use the buttons below to keep score.</p>
-                <label for="playto" class="label is-large is-inline">Playing To</label>
-                <div class="select is-rounded">
-                  <select name="" id="playto">
-                    <option value="3">3</option>
-                    <option value="5">5</option>
-                    <option value="7">7</option>
-                    <option value="9">9</option>
-                    <option value="11">11</option>
-                  </select>
+    <div class="container">
+        <div class="blog-content">
+            <div>
+                <img src="증명사진.jpg" class="blog-profile">
+                <div class="blog-name">
+                    <h4 style="margin: 5px;">유영준</h4>
+                    <p style="font-size: 12px; margin: 5px;">1시간 전</p>
                 </div>
             </div>
-          </div>
-          <footer class="card-footer">
-            <button id ="p1Button" class="is-primary button card-footer-item is-large">+ 1 Player One</button>
-            <button id="p2Button" class="is-info button card-footer-item is-large">+ 2 Player One</button>
-            <button id="reset" class="is-danger button card-footer-item is-large">reset</button>
-          </footer>
+            <div>
+                <h4 style="margin-top: 70px; margin-bottom: 0px; clear: both">4K 빔프로젝터 가성비최강으로 선택했어요</h4>
+                <p style="margin-top: 10px;font-size: 13px;">4k 빔프로젝터 가성비 최강으로 선택했어요 날씨가 날씨인지라 요즘 마음이 싱숭생숭한게 가을타는 사람이 아닌 봄을 타고있었어요... 하루하루 시간이 무의미하게 흘러가는거같고 재미있는걸 찾지못해 이리저리 헤메는사람처럼 즐거운걸 못찾고있...</p>
+            </div>
         </div>
-      </div>
+        <div class="blog-img">
+            <img src="빔프로젝터.jpg" style="margin-left: 10px; width: 100%; height: 80%"">
+        </div>
     </div>
-  </div>
-</section>
-  <script src="app.js"></script>
 </body>
-
 </html>
